@@ -65,6 +65,14 @@ flutter:
      - assets/images/send (1) 2.png
      - assets/images/Add.png
      - assets/images/Account circle.png
+     - assets/images/Phone.png
+     - assets/images/Location on.png
+     - assets/images/Mark email read.png
+     - assets/images/Rectangle 268.png
+    # - assets/images/Add (1).png
+     - assets/images/Job Seeker.png
+     - assets/images/Pie Chart.png
+     - assets/images/Brief.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
