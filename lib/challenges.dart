@@ -105,7 +105,7 @@ class Challenges extends StatelessWidget {
                           ),
                           SizedBox(height: 20), // Adjust height as needed
                           Container(
-                            width: 350,
+                            width: 400,
                             height: 135,
                             decoration: ShapeDecoration(
                               color: Colors.white,
@@ -804,7 +804,7 @@ class Challenges extends StatelessWidget {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/images/Rectangle 77.png"),
+                                                  "assets/images/Rectangle 268.png"),
                                               fit: BoxFit.contain,
                                             ),
                                           ),
@@ -855,7 +855,7 @@ class Challenges extends StatelessWidget {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/images/Vector (4).png"),
+                                                  "assets/images/Vector (1).png"),
                                               fit: BoxFit.contain,
                                             ),
                                           ),
@@ -870,7 +870,7 @@ class Challenges extends StatelessWidget {
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
                                             image: AssetImage(
-                                                "assets/images/Vector (5).png"),
+                                                "assets/images/Vector (2).png"),
                                             fit: BoxFit.contain,
                                           ),
                                         ),
@@ -884,7 +884,7 @@ class Challenges extends StatelessWidget {
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
                                             image: AssetImage(
-                                                "assets/images/Vector (6).png"),
+                                                "assets/images/Vector (3).png"),
                                             fit: BoxFit.contain,
                                           ),
                                         ),
@@ -958,7 +958,7 @@ class Challenges extends StatelessWidget {
 
                           SizedBox(height: 20), // Adjust height as needed
                           Container(
-                            width: 350,
+                            width: 390,
                             height: 135,
                             decoration: ShapeDecoration(
                               color: Colors.white,
