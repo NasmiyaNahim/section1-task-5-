@@ -473,6 +473,110 @@ SizedBox(height: 16), // Add spacing between the two containers
               ),
             ),
 
+
+            /////
+            SizedBox(height: 16), // Add spacing between the two containers
+            Container(
+              width: 319,
+              height: 130,
+              decoration: ShapeDecoration(
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                  side: BorderSide(width: 1, color: Color(0xFFD9D9D9)),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+              ),
+              child: Stack(
+                children: [
+                  Positioned(
+                    left: 8.0,
+                    top: 8.0,
+                    child: Container(
+                      width: 22,
+                      height: 22,
+                      clipBehavior: Clip.antiAlias,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        image: DecorationImage(
+                          image: AssetImage("assets/images/Brief.png"),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 40.0,
+                    top: 10.0,
+                    child: Text(
+                      'Summary',
+                      style: TextStyle(
+                        color: Color(0xFF260446),
+                        fontSize: 12,
+                        fontFamily: 'Nunito',
+                        fontWeight: FontWeight.w700,
+                        height: 0,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    right: 8.0,
+                    top: 10.0,
+                    child: Container(
+                      width: 18.33,
+                      height: 18.33,
+                      clipBehavior: Clip.antiAlias,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage("assets/images/Add.png"),
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [],
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 11,
+                    right: 11,
+                    bottom: 90,
+                    child: Container(
+                      height: 1,
+                      decoration: BoxDecoration(
+                        border: Border(
+                          top: BorderSide(
+                            width: 1,
+                            color: Color(0xFFD9D9D9),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 16,
+                    bottom: 20,
+                    child: SizedBox(
+                      width: 294,
+                      child: Text(
+                        'I am a passionate and driven technical professional with a knack for unraveling complex challenges and turning them into innovative solutions. With a relentless curiosity and a thirst for knowledge, I thrive in the ever-evolving world of technology.......',
+                        style: TextStyle(
+                          color: Color(0xFF434343),
+                          fontSize: 10,
+                          fontFamily: 'Nunito',
+                          fontWeight: FontWeight.w600,
+                          height: 0,
+                        ),
+                      ),
+                    ),
+                  ),
+
+                ],
+              ),
+            ),
+
  
           ],
         ),
